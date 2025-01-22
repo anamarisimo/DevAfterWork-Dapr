@@ -1,0 +1,19 @@
+﻿@page
+@model PublisherApp.Pages.SendAlertModel
+@{
+}
+
+<div class="center-text">Enter the alert details:</div>
+
+<form method="post">
+    Name:
+    <input asp-for="Alert!.Name" />
+    <br>
+    Description:
+    <input asp-for="Alert!.Description" />
+    <br>
+    Severity:
+    <input asp-for="Alert!.Severity" />
+    <br>
+    <input type="submit" />
+</form>
