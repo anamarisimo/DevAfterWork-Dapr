@@ -1,0 +1,29 @@
+﻿@page
+@model EventAnimationModel
+
+<script>
+    // Simulates event consumption every 3 seconds
+    setInterval(() => {
+        alert('Event consumed!');
+        const animObject = document.getElementById('anim-object');
+        animObject.style.transition = 'transform 2s ease-in-out';
+        animObject.style.transform = `translateY(${Math.random() * 300}px)`; // Randomize Y position
+    }, 3000); // Triggers every 3 seconds
+</script>
+
+<script>
+    // Handles the Start Animation button
+    document.addEventListener('DOMContentLoaded', () => {
+        const startAnimationButton = document.getElementById('start-animation');
+        startAnimationButton.addEventListener('click', () => {
+            const animObject = document.getElementById('anim-object');
+            animObject.style.transition = 'transform 2s ease-in-out';
+            animObject.style.transform = 'translateX(200px)';
+        });
+    });
+</script>
+
+<div id="animation-container" style="width: 300px; height: 300px; background-color: lightblue;">
+    <div id="anim-object" style="width: 50px; height: 50px; background-color: red; position: relative;"></div>
+</div>
+<button id="start-animation">Start Animation</button>

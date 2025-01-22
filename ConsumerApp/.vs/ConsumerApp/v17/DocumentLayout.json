@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\eventanimation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\eventanimation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\eventanimation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\eventanimation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|c:\\ana\\repos\\other\\devafterwork-dapr\\consumerapp\\consumerapp\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{330877AE-47E8-42A7-8000-747BCB5630E9}|ConsumerApp\\ConsumerApp.csproj|solutionrelative:consumerapp\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 231,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "ConsumerApp\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T08:36:25.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "ConsumerApp\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T08:35:49.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "ConsumerApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T08:33:29.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConsumerApp\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T08:33:12.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ConsumerApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T08:33:11.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventAnimation.cshtml",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\EventAnimation.cshtml",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\EventAnimation.cshtml",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\EventAnimation.cshtml",
+              "RelativeToolTip": "ConsumerApp\\Pages\\EventAnimation.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T08:31:59.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "ConsumerApp\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T08:33:36.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventAnimation.cshtml.cs",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\EventAnimation.cshtml.cs",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\EventAnimation.cshtml.cs",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\EventAnimation.cshtml.cs",
+              "RelativeToolTip": "ConsumerApp\\Pages\\EventAnimation.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:32:13.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Error.cshtml",
+              "RelativeToolTip": "ConsumerApp\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T08:36:28.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "ConsumerApp\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T08:36:26.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "ConsumerApp\\Pages\\Privacy.cshtml.cs",
+              "ToolTip": "C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "ConsumerApp\\Pages\\Privacy.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:35:26.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
