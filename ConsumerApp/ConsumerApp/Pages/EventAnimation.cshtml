@@ -1,6 +1,6 @@
 ﻿@page
 @model EventAnimationModel
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.8/signalr.min.js"></script>
 <!-- Button to trigger the alert animation -->
 <button id="start-animation" class="start-button">Show Alert</button>
 
@@ -9,6 +9,43 @@
     <p>Event consumed!</p>
 </div>
 
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const alertBox = document.getElementById('alert-box');
+
+        // Create a connection to the SignalR hub
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/notificationHub")
+            .build();
+
+        // Start the connection
+        connection.start().then(() => {
+            console.log("SignalR connection established!");
+        }).catch(err => {
+            console.error("Error establishing SignalR connection:", err);
+        });
+
+        // Listen for the event sent from the backend
+        connection.on("ReceiveEvent", () => {
+            console.log("Event received!");
+            if (alertBox) {
+                // Reset the animation by removing both the 'splash' and 'hide' classes
+                alertBox.classList.remove('splash', 'hide');
+
+                // Force reflow to ensure the animation restarts
+                void alertBox.offsetWidth; // Trigger a reflow to restart the animation
+
+                // Add the 'splash' class to start the animation
+                alertBox.classList.add('splash');
+
+                // After the animation finishes, hide the alert after 3 seconds
+                setTimeout(() => {
+                    alertBox.classList.add('hide');
+                }, 3000);
+            }
+        });
+    });
+</script>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const startAnimationButton = document.getElementById('start-animation');
