@@ -1,10 +1,8 @@
 apps:
 - appDirPath: ConsumerApp
   appID: consumerapp
-  appPort: 5198
+  appPort: 80
   command:
   - dotnet
   - run
-  resourcesPaths:
-  - ./components
 version: 1

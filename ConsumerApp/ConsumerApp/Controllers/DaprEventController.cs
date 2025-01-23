@@ -17,7 +17,7 @@ namespace ConsumerApp.Controllers
             _hubContext = hubContext;
         }
       
-        [Topic("pubsub", "my-topic")]
+        [Topic("dapr-pubsub", "my-topic")]
         [HttpPost("event-handler")]
         public async Task<IActionResult> HandleEvent([FromBody] dynamic payload)
         {

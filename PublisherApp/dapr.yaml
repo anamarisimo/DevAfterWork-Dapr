@@ -1,0 +1,13 @@
+apps:
+- appDirPath: PublisherApp
+  appID: publisherapp
+  appPort: 80
+  command:
+  - dotnet
+  - run
+logging:
+ apiLogging:
+   enabled: true
+   obfuscateURLs: false
+   omitHealthChecks: false
+version: 1

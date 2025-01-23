@@ -12,7 +12,7 @@
     "Dapr": {
       "commandName": "Executable",
       "executablePath": "dapr",
-      "commandLineArgs": "run --app-id consumerapp --app-port 80 --resources-path C:\\Ana\\Repos\\other\\DevAfterWork-Dapr\\ConsumerApp\\ConsumerApp\\components --log-level debug  --dapr-http-port 3500 -- dotnet run",
+      "commandLineArgs": "run --app-id consumerapp --app-port 80 --log-level debug -- dotnet run",
       "workingDirectory": "$(ProjectDir)",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

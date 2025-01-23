@@ -1,7 +1,11 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDaprClient();  // This adds the Dapr client to access pub/sub
+
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddControllers().AddDapr(); // This line ads Dapr integration
+builder.Services.AddEndpointsApiExplorer();
 
 var app = builder.Build();
 
@@ -17,6 +21,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+// Ensure Dapr middleware is added for pub/sub
+app.UseCloudEvents();  // This enables Dapr's event consumption
+
+app.MapSubscribeHandler(); // This enables subscription to Dapr pubsub events
 
 app.UseAuthorization();
 
