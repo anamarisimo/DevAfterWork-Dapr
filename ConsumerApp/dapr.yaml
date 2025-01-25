@@ -2,7 +2,9 @@ apps:
 - appDirPath: ConsumerApp
   appID: consumerapp
   appPort: 5198
+  daprHTTPPort: 35101
   command:
   - dotnet
   - run
+  resourcesPath: ./components 
 version: 1

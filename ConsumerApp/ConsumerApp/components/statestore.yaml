@@ -1,0 +1,47 @@
+# apiVersion: dapr.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: statestore
+# spec:
+#   type: state.redis
+#   version: v1
+#   metadata:
+#   - name: redisHost
+#     value: localhost:6379
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: statestore
+  namespace: default
+spec:
+  type: state.sqlserver
+  version: v1
+  metadata:
+    # Connection string to the SQL Server instance
+    - name: connectionString
+      value: |
+        Server=localhost,1433;Database=myDatabase;User Id=sa;Password=Password123!;
+    # Table name for storing state
+    - name: tableName
+      value: "state"
+    # Metadata table for Dapr's internal metadata
+    - name: metadataTableName
+      value: "dapr_metadata"
+    # Schema name
+    - name: schema
+      value: "dbo"
+    # Key type
+    - name: keyType
+      value: "string"
+    # Maximum key length
+    - name: keyLength
+      value: "200"
+    # Indexed properties for querying (optional)
+    - name: indexedProperties
+      value: ""
+    # Cleanup interval for expired items (in seconds)
+    - name: cleanupIntervalInSeconds
+      value: "3600"
+    # Enable this if you're using SQL Server for actor state (optional)
+    # - name: actorStateStore
+    #   value: "true"
