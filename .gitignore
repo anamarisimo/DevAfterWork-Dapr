@@ -380,3 +380,4 @@ FodyWeavers.xsd
 /ConsumerApp/.vs/ConsumerApp/v17/*
 /ConsumerApp/.vs/*
 
+/ConsumerApp/ConsumerApp/obj/Debug/net8.0/project.razor.vs.bin

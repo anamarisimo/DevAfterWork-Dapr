@@ -6,7 +6,12 @@ builder.Services.AddDaprClient();  // This adds the Dapr client to access pub/su
 
 builder.Services.AddRazorPages();
 builder.Services.AddSignalR();
-builder.Services.AddControllers().AddDapr(); // This line ads Dapr integration
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+     {
+         options.JsonSerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter());
+     })
+    .AddDapr(); // This line ads Dapr integration
 builder.Services.AddEndpointsApiExplorer();
 var app = builder.Build();
 

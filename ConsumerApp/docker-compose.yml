@@ -1,11 +1,20 @@
 version: '3.4'
 
 services:
-  consumerapp:
-    image: consumerapp:latest
+  consumerapp1:
+    image: consumerapp1:latest
     build:
       context: .
       dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_URLS=http://+:5198
+      - DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
+      - DOTNET_RUNNING_IN_CONTAINER=true
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5198:5198"
+    networks:
+      - hello-dapr
 
   consumerapp-dapr:
    image: "daprio/daprd:latest"
@@ -14,13 +23,39 @@ services:
       [
         "./daprd",
         "-app-id",
-        "consumerapp",
+        "consumerapp1",
         "-app-port",
-        "80",
+        "5198",
         "--log-level",
         "debug",
-        "--components-path",
+        "--placement-host-address", "placement:50006", # Dapr's placement service can be reach via the docker DNS entry
+        "--resources-path",
         "/components",
       ]
    volumes:
       - ./components:/components
+   networks:
+      - hello-dapr
+   ports:
+      - "3500:3500"  # Expose Dapr HTTP API to the host
+
+  ############################
+  # Dapr placement service
+  ############################
+  placement:
+    image: "daprio/dapr"
+    command: ["./placement", "-port", "50006"]
+    ports:
+      - "50006:50006"
+    networks:
+      - hello-dapr
+  redis:
+    image: redis:alpine
+    container_name: redis-dapr-demo
+    ports:
+      - "6381:6379"
+    networks:
+      - hello-dapr
+
+networks:
+    hello-dapr:

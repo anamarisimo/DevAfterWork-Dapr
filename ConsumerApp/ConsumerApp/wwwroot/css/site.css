@@ -50,26 +50,27 @@ body {
     visibility: hidden;
     transition: all 0.5s ease;
     width: 300px;
-    height: 300px;
+    height: auto; /* Let the height adjust dynamically based on content */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
     text-align: center;
-    border-radius: 50%; /* Makes it a circle */
-    background-color: #f44336; /* Red background for the alert */
-    color: white;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    font-size: 18px;
+    background-color: transparent; /* Remove background color */
+    color: black;
+    box-shadow: none; /* Remove shadow */
+    font-size: 24px; /* Make the text bigger */
+    font-weight: bold; /* Optional: Make the text bold */
+    gap: 10px; /* Add some space between the SVG and text */
 }
 
     /* Splash effect */
     .alert-box.splash {
         opacity: 1;
         visibility: visible;
-        animation: splashIn 0.8s ease-out, splashOut 0.8s 2.2s ease forwards;
+        animation: splashIn 0.8s ease-out, splashOut 0.8s 5s ease forwards;
     }
 
-/* Splash-in animation */
 @keyframes splashIn {
     0% {
         transform: translate(-50%, -50%) scale(0);
@@ -80,7 +81,6 @@ body {
     }
 }
 
-/* Splash-out animation */
 @keyframes splashOut {
     0% {
         transform: translate(-50%, -50%) scale(1);
