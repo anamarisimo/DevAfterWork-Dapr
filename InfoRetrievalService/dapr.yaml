@@ -1,0 +1,8 @@
+apps:
+- appDirPath: InfoRetrievalService
+  appID: inforetrievalservice
+  appPort: 5078
+  command:
+  - dotnet
+  - run
+version: 1

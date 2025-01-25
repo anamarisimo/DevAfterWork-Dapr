@@ -1,0 +1,6 @@
+@InfoRetrievalService_HostAddress = http://localhost:5078
+
+GET {{InfoRetrievalService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
