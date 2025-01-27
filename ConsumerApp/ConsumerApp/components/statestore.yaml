@@ -20,7 +20,7 @@ spec:
     # Connection string to the SQL Server instance
     - name: connectionString
       value: |
-        Server=localhost,1433;Database=myDatabase;User Id=sa;Password=Password123!;
+        Server=localhost,1433;Database=master;User Id=sa;Password=Password123!;Trust Server Certificate=True;
     # Table name for storing state
     - name: tableName
       value: "state"

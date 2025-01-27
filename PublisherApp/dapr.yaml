@@ -1,13 +1,9 @@
 apps:
 - appDirPath: PublisherApp
   appID: publisherapp
-  appPort: 80
+  appPort: 5141
   command:
   - dotnet
   - run
-logging:
- apiLogging:
-   enabled: true
-   obfuscateURLs: false
-   omitHealthChecks: false
+  resourcesPath: ./components
 version: 1

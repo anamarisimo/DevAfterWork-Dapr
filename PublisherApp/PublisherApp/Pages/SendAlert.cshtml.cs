@@ -1,6 +1,7 @@
 using Dapr.Client;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using PublisherApp.Models;
 
 namespace PublisherApp.Pages
 {
@@ -14,29 +15,27 @@ namespace PublisherApp.Pages
         }
 
         [BindProperty]
-        public SendAlertViewModel? Alert { get; set; }
+        public Alert? Alert { get; set; }
+
+        public readonly IList<string> Regions = new List<string>()
+        {
+            "Bucuresti",
+            "Cluj",
+            "Timisoara",
+            "Iasi",
+            "Craiova"
+        };
 
         public void OnGet()
         {
+            ViewData["Regions"] = Regions;
         }
 
         public async Task<IActionResult> OnPost()
         {
             await _dapr.PublishEventAsync("dapr-pubsub", "my-topic", Alert);
 
-            // Handle form submission logic here
-            // For example, you can save the inputs or send them to an endpoint
-
             return RedirectToPage(); // Redirect to the same page after submission
         }
-    }
-
-    public class SendAlertViewModel
-    {
-        public string Name { get; set; }
-
-        public string Description { get; set; }
-
-        public string Severity { get; set; }
     }
 }

@@ -6,14 +6,14 @@
 <div class="center-text">Enter the alert details:</div>
 
 <form method="post">
-    Name:
-    <input asp-for="Alert!.Name" />
+    Alert Region:
+    <select asp-for="Alert!.Region" asp-items="@(new SelectList((IList<string>)ViewData["Regions"]!))" class="form-control form-control-lg" >
+        </select>
     <br>
-    Description:
-    <input asp-for="Alert!.Description" />
+    Alert Type:
+    <select asp-for="Alert!.Type" asp-items="@(new SelectList(Enum.GetValues(typeof(PublisherApp.Models.AlertType))))" class="form-control form-control-lg" >
+    </select>
     <br>
-    Severity:
-    <input asp-for="Alert!.Severity" />
     <br>
     <input type="submit" />
 </form>
